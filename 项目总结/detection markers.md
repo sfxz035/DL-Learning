@@ -1,4 +1,6 @@
 ## Detection markers
+### 注意  
+金标检测的图像分为png和原图，png是原图经过窗位窗宽调整后得到的图片，为uint8格式，而原图为16为float图
 
 ### 问题
 1. opencv uint8格式问题  
@@ -19,5 +21,6 @@
     - 以上这两者原因还待深究
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTQwMDU5MywtMTA0OTgyODYxMV19
+eyJoaXN0b3J5IjpbMTQ4NjU2MzE2NiwxODM1NDAwNTkzLC0xMD
+Q5ODI4NjExXX0=
 -->
