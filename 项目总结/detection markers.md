@@ -1,7 +1,7 @@
 ## Detection markers
 ### 注意  
 金标检测的图像分为png和原图，png是原图经过窗位窗宽调整后得到的图片，为uint8格式，而原图为16为float图。
-一般都是对原图进行一定范围的截取，然后将该范围的值映射到一定范围，用该范围的值对应全部灰阶成为的t
+一般都是对原图进行一定范围的截取，然后将该范围的值映射到一定范围，用该范围的值对应全部灰阶成为的图像。
 
 ### 问题
 1. opencv uint8格式问题  
@@ -22,6 +22,6 @@
     - 以上这两者原因还待深究
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTM1OTE4MiwxODM1NDAwNTkzLC0xMD
-Q5ODI4NjExXX0=
+eyJoaXN0b3J5IjpbNjY0OTg5MTk5LDE4MzU0MDA1OTMsLTEwND
+k4Mjg2MTFdfQ==
 -->
