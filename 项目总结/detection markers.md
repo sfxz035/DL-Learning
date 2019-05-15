@@ -4,7 +4,7 @@
 - 原图  
   原图数据为16位的short型数据。
   - int 255  
-    将原图每一张fen'b
+    将原图每一张分别进行标准化，截取-0.75，0.75范围的数据（data2）,再进行最大最小值归一化到0，255范围，并`cv.cvtColor(img,cv.COLOR_GRAY2BGR)`
   - 
 -   
 
@@ -31,6 +31,6 @@
     - 以上这两者原因还待深究
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzNTA2MDk2LDY2NDk4OTE5OSwxODM1ND
-AwNTkzLC0xMDQ5ODI4NjExXX0=
+eyJoaXN0b3J5IjpbLTE1NTA2MjA4MjMsNjY0OTg5MTk5LDE4Mz
+U0MDA1OTMsLTEwNDk4Mjg2MTFdfQ==
 -->
