@@ -8,7 +8,7 @@
   - -0.75，0.75  
     将原图进行标准化，截取-0.75，0.75范围的数据（data3）
   - 0，1
-    将原图直接除以（256*256）,映射到（0）
+    将原图直接除以（256*256）,映射到（0，1）范围
    
 -   
 
@@ -35,6 +35,6 @@
     - 以上这两者原因还待深究
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0OTQwMDcwLDY2NDk4OTE5OSwxODM1ND
-AwNTkzLC0xMDQ5ODI4NjExXX0=
+eyJoaXN0b3J5IjpbLTEzNjg4NjQ2NTQsNjY0OTg5MTk5LDE4Mz
+U0MDA1OTMsLTEwNDk4Mjg2MTFdfQ==
 -->
