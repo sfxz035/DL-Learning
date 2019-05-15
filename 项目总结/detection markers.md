@@ -10,7 +10,8 @@
   - 0，1
     将原图直接除以（256*256）,映射到（0，1）范围--（data4）
    
--   
+-   png图片
+  输入直接是原图经过窗位窗宽调整过后的png图片。
 
 ### 注意  
 金标检测的图像分为png和原图，png是原图经过窗位窗宽调整后得到的图片，为uint8格式，而原图为16为float图。
@@ -35,6 +36,6 @@
     - 以上这两者原因还待深究
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTE4NzM1OSw2NjQ5ODkxOTksMTgzNT
-QwMDU5MywtMTA0OTgyODYxMV19
+eyJoaXN0b3J5IjpbMTE2OTM2MzAyNCwtMTgxMTg3MzU5LDY2ND
+k4OTE5OSwxODM1NDAwNTkzLC0xMDQ5ODI4NjExXX0=
 -->
