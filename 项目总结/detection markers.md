@@ -1,4 +1,13 @@
 ## Detection markers
+
+### 数据
+- 原图  
+  原图数据为16位的short型数据。
+  - int 255  
+    将原图每一张fen'b
+  - 
+-   
+
 ### 注意  
 金标检测的图像分为png和原图，png是原图经过窗位窗宽调整后得到的图片，为uint8格式，而原图为16为float图。
 一般都是对原图进行一定范围的截取，然后将该范围的值映射到一定范围，用该范围的值对应全部灰阶成为的图像。
@@ -22,6 +31,6 @@
     - 以上这两者原因还待深究
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0OTg5MTk5LDE4MzU0MDA1OTMsLTEwND
-k4Mjg2MTFdfQ==
+eyJoaXN0b3J5IjpbNzgzNTA2MDk2LDY2NDk4OTE5OSwxODM1ND
+AwNTkzLC0xMDQ5ODI4NjExXX0=
 -->
