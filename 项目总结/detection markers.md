@@ -37,8 +37,9 @@
 2. 原图问题  
    - 差别小，导致肉眼无法识别的金标。
    - 金标小，小物体分割。
+   - loss不同，导致结果不同。dice目标更准确完整，但背景更多噪声。MSE背景更干净，但目标不太完整，you'xu'duo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTIwNjk4OTAsMTE2OTM2MzAyNCwtMT
-gxMTg3MzU5LDY2NDk4OTE5OSwxODM1NDAwNTkzLC0xMDQ5ODI4
-NjExXX0=
+eyJoaXN0b3J5IjpbNzEwNjE3OTgwLDExNjkzNjMwMjQsLTE4MT
+E4NzM1OSw2NjQ5ODkxOTksMTgzNTQwMDU5MywtMTA0OTgyODYx
+MV19
 -->
