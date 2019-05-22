@@ -34,8 +34,11 @@
         - 正确  
           先astype成uint8格式再乘以255  
     - 以上这两者原因还待深究
-2. 
+2. 原图问题  
+   - 差别小，导致肉眼无法识别的金标。
+   - 金标小，小物体分割。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTM2MzAyNCwtMTgxMTg3MzU5LDY2ND
-k4OTE5OSwxODM1NDAwNTkzLC0xMDQ5ODI4NjExXX0=
+eyJoaXN0b3J5IjpbLTIwOTIwNjk4OTAsMTE2OTM2MzAyNCwtMT
+gxMTg3MzU5LDY2NDk4OTE5OSwxODM1NDAwNTkzLC0xMDQ5ODI4
+NjExXX0=
 -->
