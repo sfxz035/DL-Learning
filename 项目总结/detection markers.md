@@ -49,12 +49,12 @@
     目前很多分割方法都是基于模板匹配的，需要标记的先验信息。通常对于规则形状的标记(例如球形和圆柱形的金基准)，模板是基于已知的属性(如尺寸)构建的。其他类型的标记物如螺旋标记物(如Visicoil、IBA剂量学)可用于减少迁移，但这些标记物植入后会变形为任意形状，导致标记物性质未知。因此，需要额外的学习时间来确定标记属性和开发模板。
 - 数据  
   标记图像是患者的单帧CT图像。  
-  训练集由   位肝癌患者的标记植入的单帧CT图像构成。  
+  训练集由   位肝癌患者的标记植入的单帧CBCT图像构成。  
 
 - 要点  
   **实时**图像引导自适应放射治疗(IGART)跟踪目标
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDgwMzQ3ODQsODg4NDczMiwtNDQzNj
-k1ODA5LDU3Njg0NTMyMywxMTY5MzYzMDI0LC0xODExODczNTks
-NjY0OTg5MTk5LDE4MzU0MDA1OTMsLTEwNDk4Mjg2MTFdfQ==
+eyJoaXN0b3J5IjpbMTY2NzE1NzU2Nyw4ODg0NzMyLC00NDM2OT
+U4MDksNTc2ODQ1MzIzLDExNjkzNjMwMjQsLTE4MTE4NzM1OSw2
+NjQ5ODkxOTksMTgzNTQwMDU5MywtMTA0OTgyODYxMV19
 -->
