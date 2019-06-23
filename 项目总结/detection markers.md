@@ -38,8 +38,12 @@
    - 差别小，导致肉眼无法识别的金标。
    - 金标小，小物体分割。
    - loss不同，导致结果不同。dice目标更准确完整，但背景更多噪声。MSE背景更干净，但目标不太完整，有许多孔洞。
+
+
+### 总结  
+**深度学习方法分割帧内透视图像中任意形状基准标记**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2ODQ1MzIzLDExNjkzNjMwMjQsLTE4MT
-E4NzM1OSw2NjQ5ODkxOTksMTgzNTQwMDU5MywtMTA0OTgyODYx
-MV19
+eyJoaXN0b3J5IjpbMTI3MjQ4ODI1LDU3Njg0NTMyMywxMTY5Mz
+YzMDI0LC0xODExODczNTksNjY0OTg5MTk5LDE4MzU0MDA1OTMs
+LTEwNDk4Mjg2MTFdfQ==
 -->
