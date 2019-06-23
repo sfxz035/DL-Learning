@@ -41,9 +41,12 @@
 
 
 ### 总结  
-**深度学习方法分割帧内透视图像中任意形状基准标记**
+**深度学习方法分割帧内透视图像中任意形状基准标记**  
+- 目的  
+  实时图像引导自适应放射治疗(IGART)需要精确的标记分割来解决基于二维透视图像的三维运动问题。该跟踪系统采用卷积神经网络(CNN)模型对**圆柱状和任意形状**的基准标记进行分割。  
+  - 与传统方法相比 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjQ4ODI1LDU3Njg0NTMyMywxMTY5Mz
-YzMDI0LC0xODExODczNTksNjY0OTg5MTk5LDE4MzU0MDA1OTMs
-LTEwNDk4Mjg2MTFdfQ==
+eyJoaXN0b3J5IjpbLTEzNDkzMDE5NDMsNTc2ODQ1MzIzLDExNj
+kzNjMwMjQsLTE4MTE4NzM1OSw2NjQ5ODkxOTksMTgzNTQwMDU5
+MywtMTA0OTgyODYxMV19
 -->
