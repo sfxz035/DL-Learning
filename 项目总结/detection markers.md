@@ -52,10 +52,10 @@
   训练集由   位肝癌患者的标记植入的单帧CBCT图像构成。  
 
 - 要点  
-  任意x
+  适用于任意形状的标记，不需要事先知道标记的特性。不需要进行额外的模板时间学习。
   **实时**图像引导自适应放射治疗(IGART)跟踪目标
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTYwODI1MjcsODg4NDczMiwtNDQzNj
-k1ODA5LDU3Njg0NTMyMywxMTY5MzYzMDI0LC0xODExODczNTks
-NjY0OTg5MTk5LDE4MzU0MDA1OTMsLTEwNDk4Mjg2MTFdfQ==
+eyJoaXN0b3J5IjpbMTE0MTg4ODQyNCw4ODg0NzMyLC00NDM2OT
+U4MDksNTc2ODQ1MzIzLDExNjkzNjMwMjQsLTE4MTE4NzM1OSw2
+NjQ5ODkxOTksMTgzNTQwMDU5MywtMTA0OTgyODYxMV19
 -->
