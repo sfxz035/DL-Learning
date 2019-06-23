@@ -47,9 +47,10 @@
   - 与传统方法相比  
     大多数常用的标记分割方法都需要事先了解标记属性才能构造模板。如果不知道标记物的属性，则需要额外的学习时间来构建将患者暴露于额外成像剂量的模板。该方法不需要预先特定于患者的数据或额外的学习时间
 - 数据  
-  标记图像是患者的单帧CBCT图像。
+  标记图像是患者的单帧CT图像。  
+  训练集由   位患者的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzczNDI2NCw4ODg0NzMyLC00NDM2OT
+eyJoaXN0b3J5IjpbLTcyMzY5MzkxMSw4ODg0NzMyLC00NDM2OT
 U4MDksNTc2ODQ1MzIzLDExNjkzNjMwMjQsLTE4MTE4NzM1OSw2
 NjQ5ODkxOTksMTgzNTQwMDU5MywtMTA0OTgyODYxMV19
 -->
