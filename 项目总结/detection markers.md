@@ -46,8 +46,9 @@
   实时图像引导自适应放射治疗(IGART)需要精确的标记分割来解决基于二维透视图像的三维运动问题。该跟踪系统采用卷积神经网络(CNN)模型对**圆柱状和任意形状**的基准标记进行分割。  
   - 与传统方法相比  
     大多数常用的标记分割方法都需要事先了解标记属性才能构造模板。如果不知道标记物的属性，则需要额外的学习时间来构建将患者暴露于额外成像剂量的模板。该方法不需要预先特定于患者的数据或额外的学习时间
+- 数据
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzY5NTgwOSw1NzY4NDUzMjMsMTE2OT
-M2MzAyNCwtMTgxMTg3MzU5LDY2NDk4OTE5OSwxODM1NDAwNTkz
-LC0xMDQ5ODI4NjExXX0=
+eyJoaXN0b3J5IjpbODg4NDczMiwtNDQzNjk1ODA5LDU3Njg0NT
+MyMywxMTY5MzYzMDI0LC0xODExODczNTksNjY0OTg5MTk5LDE4
+MzU0MDA1OTMsLTEwNDk4Mjg2MTFdfQ==
 -->
