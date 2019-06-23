@@ -56,11 +56,12 @@
   **实时**图像引导自适应放射治疗(IGART)跟踪目标
 
 - 额外要点  
-  - 可以用迁移学习  
+  - 可以用迁移学习   
+    使用预先训练的Alexnet  (或者VGG)
     在医学领域使用深度学习CNNs的主要限制是缺乏大型带注释的数据集，比如那些为自然图像而存在的数据集。因此，在大型数据集上对CNNs进行全面培训的另一种选择是通过将预先培训好的CNNs微调到医疗应用程序来执行转移学习
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDIwNDAwOSwxMTQxODg4NDI0LDg4OD
-Q3MzIsLTQ0MzY5NTgwOSw1NzY4NDUzMjMsMTE2OTM2MzAyNCwt
-MTgxMTg3MzU5LDY2NDk4OTE5OSwxODM1NDAwNTkzLC0xMDQ5OD
-I4NjExXX0=
+eyJoaXN0b3J5IjpbMTAxMTAwNjExNSwxMjcwMjA0MDA5LDExND
+E4ODg0MjQsODg4NDczMiwtNDQzNjk1ODA5LDU3Njg0NTMyMywx
+MTY5MzYzMDI0LC0xODExODczNTksNjY0OTg5MTk5LDE4MzU0MD
+A1OTMsLTEwNDk4Mjg2MTFdfQ==
 -->
