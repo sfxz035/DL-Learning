@@ -48,9 +48,9 @@
     大多数常用的标记分割方法都需要事先了解标记属性才能构造模板。如果不知道标记物的属性，则需要额外的学习时间来构建将患者暴露于额外成像剂量的模板。该方法不需要预先特定于患者的数据或额外的学习时间
 - 数据  
   标记图像是患者的单帧CT图像。  
-  训练集由   位gan患者的标记植入的单帧CT图像构成。
+  训练集由   位肝癌患者的标记植入的单帧CT图像构成。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjczMDA3NDAsODg4NDczMiwtNDQzNj
+eyJoaXN0b3J5IjpbLTExNTg2OTUyMDcsODg4NDczMiwtNDQzNj
 k1ODA5LDU3Njg0NTMyMywxMTY5MzYzMDI0LC0xODExODczNTks
 NjY0OTg5MTk5LDE4MzU0MDA1OTMsLTEwNDk4Mjg2MTFdfQ==
 -->
