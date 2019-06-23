@@ -50,8 +50,10 @@
   标记图像是患者的单帧CT图像。  
   训练集由   位肝癌患者的标记植入的单帧CT图像构成。  
 
+- 要点  
+  **实时**图像引导自适应放射治疗(IGART)跟踪目标
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDAzNDQzOSw4ODg0NzMyLC00NDM2OT
+eyJoaXN0b3J5IjpbLTU1NjYzOTQ2Niw4ODg0NzMyLC00NDM2OT
 U4MDksNTc2ODQ1MzIzLDExNjkzNjMwMjQsLTE4MTE4NzM1OSw2
 NjQ5ODkxOTksMTgzNTQwMDU5MywtMTA0OTgyODYxMV19
 -->
