@@ -6,7 +6,8 @@
 - 第二步  
   - SRGAN网络对自然模糊图像  
   - 输入经过插值放大，实现输入输出同尺寸大小。因为模糊人脸图像其实不是单纯超分问题，可能存在噪声或运动模糊等问题。经过插值放大的图像可能更符合模糊人脸数据。
-  - 
+- 第三步  
+  在人脸数据上进行训练
 
 - 遇到问题  
   超分辨网络输出的结果图片有光斑。  
@@ -20,6 +21,6 @@
      clip后无光斑图  
      ![enter image description here](https://github.com/sfxz035/DL-Learning/raw/master/picture/wgb.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjMxODUzMjAsNTY5ODA4NTcxLDUwOT
+eyJoaXN0b3J5IjpbLTE0NDkzNjc3MjEsNTY5ODA4NTcxLDUwOT
 g1MjA3NiwtNzc3OTcxNDI3LC02MzI5MjgyNDBdfQ==
 -->
