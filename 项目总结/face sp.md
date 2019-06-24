@@ -1,9 +1,11 @@
 
 - 第一步  
   尝试SRResnet进行自然图像超分应用到人脸模糊图像数据上。  
+  输入未经插值放大尺寸，网络有亚像素卷积层
   自然图像超分可以得到较好处理，但在模糊人脸图像上并没有什么效果。
 - 第二步  
-  SRGAN网络对人
+  - SRGAN网络对自然模糊图像  
+  - 输入经过插值放大，实现输入输出同尺寸大小。因为模糊人脸图像其实不是单纯超分问题，可能存在噪声或
 
 - 遇到问题  
   超分辨网络输出的结果图片有光斑。  
@@ -17,6 +19,6 @@
      clip后无光斑图  
      ![enter image description here](https://github.com/sfxz035/DL-Learning/raw/master/picture/wgb.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODcxMzEwLDU2OTgwODU3MSw1MDk4NT
-IwNzYsLTc3Nzk3MTQyNywtNjMyOTI4MjQwXX0=
+eyJoaXN0b3J5IjpbLTE1MzQyNDMxMjYsNTY5ODA4NTcxLDUwOT
+g1MjA3NiwtNzc3OTcxNDI3LC02MzI5MjgyNDBdfQ==
 -->
