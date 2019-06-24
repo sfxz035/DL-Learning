@@ -1,5 +1,9 @@
 
-
+- 第一步  
+  尝试SRResnet进行自然图像超分应用到人脸模糊图像数据上。  
+  自然图像超分可以得到较好处理，但在模糊人脸图像上并没有什么效果。
+- 第二步  
+  SRGAN网络对人
 
 - 遇到问题  
   超分辨网络输出的结果图片有光斑。  
@@ -13,6 +17,6 @@
      clip后无光斑图  
      ![enter image description here](https://github.com/sfxz035/DL-Learning/raw/master/picture/wgb.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5ODA4NTcxLDUwOTg1MjA3NiwtNzc3OT
-cxNDI3LC02MzI5MjgyNDBdfQ==
+eyJoaXN0b3J5IjpbMTUzODcxMzEwLDU2OTgwODU3MSw1MDk4NT
+IwNzYsLTc3Nzk3MTQyNywtNjMyOTI4MjQwXX0=
 -->
