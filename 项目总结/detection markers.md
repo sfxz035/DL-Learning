@@ -49,7 +49,7 @@
     目前很多分割方法都是基于模板匹配的，需要标记的先验信息。通常对于规则形状的标记(例如球形和圆柱形的金基准)，模板是基于已知的属性(如尺寸)构建的。其他类型的标记物如螺旋标记物(如Visicoil、IBA剂量学)可用于减少迁移，但这些标记物植入后会变形为任意形状，导致标记物性质未知。因此，需要额外的学习时间来确定标记属性和开发模板。而不同的模板选择会带来不必要的麻烦，对于圆柱形标记，通常使用CBCT投影作为模板学习数据。对于任意形状的标记，需要4 - 5个具有合理角度分离的投影来生成模板。这个学习阶段的缺点是由于额外的成像剂量而使病人遭受不必要的辐射。为了解决这些问题，一个不需要预先了解标记特性或额外学习时间的系统将对患者有益。
 - 数据  
   标记图像是患者的单帧CT图像。  
-  训练集由12位肝癌患者的标记植入的单帧CBCT图像构成。  
+  训练集由30位肝癌患者的标记植入的单帧CBCT图像构成。每位患者包含40张单帧CT图像。  
 	- 数据裁剪  
 	  一种是将数据调整窗位窗宽，得到可视的标记图像。  
 	  另一种是不经窗位窗宽的裁剪，直接将数据输入，进行标记位置分割。
@@ -63,7 +63,7 @@
     使用预先训练的Alexnet  (或者VGG)
     在医学领域使用深度学习CNNs的主要限制是缺乏大型带注释的数据集，比如那些为自然图像而存在的数据集。因此，在大型数据集上对CNNs进行全面培训的另一种选择是通过将预先培训好的CNNs微调到医疗应用程序来执行转移学习
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDY1NzE5LC0xNTYwMjIwNjkwLC0xMj
+eyJoaXN0b3J5IjpbNjc0MDU5MjY3LC0xNTYwMjIwNjkwLC0xMj
 M0Nzc0MTM0LDEwMTEwMDYxMTUsMTI3MDIwNDAwOSwxMTQxODg4
 NDI0LDg4ODQ3MzIsLTQ0MzY5NTgwOSw1NzY4NDUzMjMsMTE2OT
 M2MzAyNCwtMTgxMTg3MzU5LDY2NDk4OTE5OSwxODM1NDAwNTkz
