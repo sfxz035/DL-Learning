@@ -51,7 +51,8 @@
   标记图像是患者的单帧CT图像。  
   训练集由   位肝癌患者的标记植入的单帧CBCT图像构成。  
 	- 数据裁剪  
-	- 
+	  一种是将数据调整窗位窗宽，得到可视的标记图像。  
+	  另一种是不经窗位窗宽的裁剪，直接将数据输入，进行标记位置分割。
 - 要点  
   适用于任意形状的标记，不需要事先知道标记的特性。不需要生成额外的模板，因此不需要额外学习时间获得标记属性以及开发模板。
   **实时**图像引导自适应放射治疗(IGART)跟踪目标
@@ -61,9 +62,9 @@
     使用预先训练的Alexnet  (或者VGG)
     在医学领域使用深度学习CNNs的主要限制是缺乏大型带注释的数据集，比如那些为自然图像而存在的数据集。因此，在大型数据集上对CNNs进行全面培训的另一种选择是通过将预先培训好的CNNs微调到医疗应用程序来执行转移学习
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0NzA3Mzg3LC0xMjM0Nzc0MTM0LDEwMT
-EwMDYxMTUsMTI3MDIwNDAwOSwxMTQxODg4NDI0LDg4ODQ3MzIs
-LTQ0MzY5NTgwOSw1NzY4NDUzMjMsMTE2OTM2MzAyNCwtMTgxMT
-g3MzU5LDY2NDk4OTE5OSwxODM1NDAwNTkzLC0xMDQ5ODI4NjEx
-XX0=
+eyJoaXN0b3J5IjpbLTE1NjAyMjA2OTAsLTEyMzQ3NzQxMzQsMT
+AxMTAwNjExNSwxMjcwMjA0MDA5LDExNDE4ODg0MjQsODg4NDcz
+MiwtNDQzNjk1ODA5LDU3Njg0NTMyMywxMTY5MzYzMDI0LC0xOD
+ExODczNTksNjY0OTg5MTk5LDE4MzU0MDA1OTMsLTEwNDk4Mjg2
+MTFdfQ==
 -->
