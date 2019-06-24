@@ -53,6 +53,7 @@
 	- 数据裁剪  
 	  一种是将数据调整窗位窗宽，得到可视的标记图像。  
 	  另一种是不经窗位窗宽的裁剪，直接将数据输入，进行标记位置分割。
+	- 对图像进行最大最小值归一化
 - 要点  
   适用于任意形状的标记，不需要事先知道标记的特性。不需要生成额外的模板，因此不需要额外学习时间获得标记属性以及开发模板。
   **实时**图像引导自适应放射治疗(IGART)跟踪目标
@@ -62,9 +63,9 @@
     使用预先训练的Alexnet  (或者VGG)
     在医学领域使用深度学习CNNs的主要限制是缺乏大型带注释的数据集，比如那些为自然图像而存在的数据集。因此，在大型数据集上对CNNs进行全面培训的另一种选择是通过将预先培训好的CNNs微调到医疗应用程序来执行转移学习
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjAyMjA2OTAsLTEyMzQ3NzQxMzQsMT
-AxMTAwNjExNSwxMjcwMjA0MDA5LDExNDE4ODg0MjQsODg4NDcz
-MiwtNDQzNjk1ODA5LDU3Njg0NTMyMywxMTY5MzYzMDI0LC0xOD
-ExODczNTksNjY0OTg5MTk5LDE4MzU0MDA1OTMsLTEwNDk4Mjg2
-MTFdfQ==
+eyJoaXN0b3J5IjpbLTE4OTY0ODAzMTQsLTE1NjAyMjA2OTAsLT
+EyMzQ3NzQxMzQsMTAxMTAwNjExNSwxMjcwMjA0MDA5LDExNDE4
+ODg0MjQsODg4NDczMiwtNDQzNjk1ODA5LDU3Njg0NTMyMywxMT
+Y5MzYzMDI0LC0xODExODczNTksNjY0OTg5MTk5LDE4MzU0MDA1
+OTMsLTEwNDk4Mjg2MTFdfQ==
 -->
