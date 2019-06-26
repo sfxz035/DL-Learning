@@ -19,8 +19,14 @@
      光斑  
      ![enter image description here](https://github.com/sfxz035/DL-Learning/raw/master/picture/gb.png)   
      clip后无光斑图  
-     ![enter image description here](https://github.com/sfxz035/DL-Learning/raw/master/picture/wgb.png)
+     ![enter image description here](https://github.com/sfxz035/DL-Learning/raw/master/picture/wgb.png)   
+
+
+###  延伸方向  
+- 图像去模糊  
+- 多尺度超分辨
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDkzNjc3MjEsNTY5ODA4NTcxLDUwOT
-g1MjA3NiwtNzc3OTcxNDI3LC02MzI5MjgyNDBdfQ==
+eyJoaXN0b3J5IjpbLTEyMDY2NDYyMjQsLTE0NDkzNjc3MjEsNT
+Y5ODA4NTcxLDUwOTg1MjA3NiwtNzc3OTcxNDI3LC02MzI5Mjgy
+NDBdfQ==
 -->
