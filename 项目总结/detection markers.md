@@ -14,7 +14,7 @@
   输入直接是原图经过窗位窗宽调整过后的png图片。
 
 ### 注意  
-金标检测的图像分为png和原图，png是原图经过窗位窗宽调整后得到的图片，为uint8格式，而原图为16为float图。
+金标检测的图像分为png和原图，png是原图经过窗位窗宽调整后得到的图片，为uint8格式，而原图为16位图。
 一般都是对原图进行一定范围的截取，然后将该范围的值映射到一定范围，用该范围的值对应全部灰阶成为的图像。
 
 ### 问题
@@ -63,9 +63,10 @@
     使用预先训练的Alexnet  (或者VGG)
     在医学领域使用深度学习CNNs的主要限制是缺乏大型带注释的数据集，比如那些为自然图像而存在的数据集。因此，在大型数据集上对CNNs进行全面培训的另一种选择是通过将预先培训好的CNNs微调到医疗应用程序来执行转移学习
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTE4NzM0MSwxMTE1MDkzNDI3LDY3ND
-A1OTI2NywtMTU2MDIyMDY5MCwtMTIzNDc3NDEzNCwxMDExMDA2
-MTE1LDEyNzAyMDQwMDksMTE0MTg4ODQyNCw4ODg0NzMyLC00ND
-M2OTU4MDksNTc2ODQ1MzIzLDExNjkzNjMwMjQsLTE4MTE4NzM1
-OSw2NjQ5ODkxOTksMTgzNTQwMDU5MywtMTA0OTgyODYxMV19
+eyJoaXN0b3J5IjpbLTExODAzNzMxOTAsLTY5NTE4NzM0MSwxMT
+E1MDkzNDI3LDY3NDA1OTI2NywtMTU2MDIyMDY5MCwtMTIzNDc3
+NDEzNCwxMDExMDA2MTE1LDEyNzAyMDQwMDksMTE0MTg4ODQyNC
+w4ODg0NzMyLC00NDM2OTU4MDksNTc2ODQ1MzIzLDExNjkzNjMw
+MjQsLTE4MTE4NzM1OSw2NjQ5ODkxOTksMTgzNTQwMDU5MywtMT
+A0OTgyODYxMV19
 -->
