@@ -2,7 +2,7 @@
 - 第一步  
   尝试SRResnet进行自然图像超分应用到人脸模糊图像数据上。  
   输入未经插值放大尺寸，网络有亚像素卷积层
-  自然图像超分可以得到较好处理，但在模糊人脸图像上并没有什么效果。
+  自然图像超分可以得到较好处理，但在现实模糊人脸数据上并没有什么效果。
 - 第二步  
   - SRGAN网络对自然模糊图像  
   - 输入经过插值放大，实现输入输出同尺寸大小。因为模糊人脸图像其实不是单纯超分问题，可能存在噪声或运动模糊等问题。经过插值放大的图像可能更符合模糊人脸数据。
@@ -26,7 +26,7 @@
 - 图像去模糊  
 - 多尺度超分辨
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDY2NDYyMjQsLTE0NDkzNjc3MjEsNT
+eyJoaXN0b3J5IjpbLTE4MTI0ODE4NjcsLTE0NDkzNjc3MjEsNT
 Y5ODA4NTcxLDUwOTg1MjA3NiwtNzc3OTcxNDI3LC02MzI5Mjgy
 NDBdfQ==
 -->
