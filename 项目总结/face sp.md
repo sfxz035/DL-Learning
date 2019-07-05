@@ -8,7 +8,11 @@
   - 输入经过插值放大，实现输入输出同尺寸大小。因为模糊人脸图像其实不是单纯超分问题，可能存在噪声或运动模糊等问题。经过插值放大的图像可能更符合模糊人脸数据。
 - 第三步  
   在人脸数据上进行训练
-
+- 尝试新的解决方法  
+  - 第一  
+    尝试加入运动模糊数据训练，是否对现有人脸模糊数据有效。
+  - 第二  
+    尝试弱监督或无监督的GAN网络，如cycleGAN等。
 - 遇到问题  
   超分辨网络输出的结果图片有光斑。  
   - 原因  
@@ -21,12 +25,11 @@
      clip后无光斑图  
      ![enter image description here](https://github.com/sfxz035/DL-Learning/raw/master/picture/wgb.png)   
 
-
 ###  延伸方向  
 - 图像去模糊  
 - 多尺度超分辨
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTI0ODE4NjcsLTE0NDkzNjc3MjEsNT
-Y5ODA4NTcxLDUwOTg1MjA3NiwtNzc3OTcxNDI3LC02MzI5Mjgy
-NDBdfQ==
+eyJoaXN0b3J5IjpbNzc5OTIzNjg4LC0xNDQ5MzY3NzIxLDU2OT
+gwODU3MSw1MDk4NTIwNzYsLTc3Nzk3MTQyNywtNjMyOTI4MjQw
+XX0=
 -->
