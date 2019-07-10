@@ -21,8 +21,8 @@
 
 - 目前存在问题： 整体图像，低频部分，简单的高频部分如轮廓恢复效果可以。但图中小patch的复杂的高频部分，如人脸恢复的不好。 需要解决的问题：图中小patch内的复杂高频信息恢复。  
 
-- 解决方向：可以缩小patchGAN判别器中
+- 解决方向：可以缩小patchGAN判别器中patch大小，使网络更集中网络中小patch部分的细节部分。 但这样做存在一个问题：当patch过小时，由于存在像素不对应的问题，效果会很差。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzI0MDk4NSwxMjQyNjE0Nzg5LC01NT
+eyJoaXN0b3J5IjpbLTQwNzk3MDU5NCwxMjQyNjE0Nzg5LC01NT
 Y0MjYzMTksNzYyMTc2NDcxLC05NDczMjY0NzldfQ==
 -->
