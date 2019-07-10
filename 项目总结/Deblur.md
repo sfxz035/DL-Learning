@@ -8,7 +8,8 @@
 现实监控下的数据去模糊：两类数据，一类监控摄像头，一类考勤人脸数据  
 网上线程代码跑一下，看下效果，与自己的效果对比。
 
+改进对于细节部分的恢复和加强。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODA2MzUsNzYyMTc2NDcxLC05NDczMj
-Y0NzldfQ==
+eyJoaXN0b3J5IjpbLTU1NjQyNjMxOSw3NjIxNzY0NzEsLTk0Nz
+MyNjQ3OV19
 -->
