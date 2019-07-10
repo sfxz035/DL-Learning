@@ -23,8 +23,10 @@
 
 - 解决方向：
 	- 可以缩小patchGAN判别器中patch大小，使网络更集中网络中小patch部分的细节部分。 但这样做存在一个问题：由于存在像素不对应的问题，当patch过小时，比较的就是像素点之间的差异了，效果会很差。  
+	- 加入多尺度信息恢复小patch的问题
 	- 可以输出vgg不同卷积层的输出作为loss约束，因为不同卷积层代表不同的感受野，可以对多尺度的patch进行计算loss，从而达到
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDE5NDM5MSwxMjQyNjE0Nzg5LC01NT
-Y0MjYzMTksNzYyMTc2NDcxLC05NDczMjY0NzldfQ==
+eyJoaXN0b3J5IjpbLTIxMTM4ODYzODUsMTM5NDE5NDM5MSwxMj
+QyNjE0Nzg5LC01NTY0MjYzMTksNzYyMTc2NDcxLC05NDczMjY0
+NzldfQ==
 -->
