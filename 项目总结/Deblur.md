@@ -2,6 +2,13 @@
 
 ###  问题  
 去模糊效果：对于整体部分的去模糊效果不错，结构部分恢复不错，但对于高频的细节部分恢复很差，如人脸等去模糊效果很差。
+
+
+接下来的方向：
+现实监控下的数据去模糊：两类数据，一类监控摄像头，一类考勤人脸数据  
+网上线程代码跑一下，看下效果，与自己的效果对比。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyMTc2NDcxLC05NDczMjY0NzldfQ==
+eyJoaXN0b3J5IjpbMTk2ODA2MzUsNzYyMTc2NDcxLC05NDczMj
+Y0NzldfQ==
 -->
