@@ -15,8 +15,10 @@
 
 ### 记录：  
 数据为两帧相加取平均帧获得模糊数据，因此blur和sharp数据不是像素级的对应。  
-数据可以分为：1. 摄像头固定：背景物无运动模糊，目标物体不同速度的运动模糊。 2. 手持摄像头：背景物有运动模糊，
+数据可以分为：1. 摄像头固定：背景物无运动模糊，目标物体不同速度的非均匀运动模糊。 2. 手持摄像头：背景物有运动模糊，目标物体也有相对的不同运动速度的非均匀模糊。  
+
+方法：由于不是像素对应的，我们生成去模糊数据时也不要求与sharp数据进行像素点的一一对应，只要恢复出其中内容就好
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0MDQ0MzgyLDEyNDI2MTQ3ODksLTU1Nj
-QyNjMxOSw3NjIxNzY0NzEsLTk0NzMyNjQ3OV19
+eyJoaXN0b3J5IjpbMTEyMDE3NjYzOCwxMjQyNjE0Nzg5LC01NT
+Y0MjYzMTksNzYyMTc2NDcxLC05NDczMjY0NzldfQ==
 -->
