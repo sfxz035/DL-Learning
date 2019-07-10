@@ -13,9 +13,10 @@
 
 
 
-记录：  
-数据为两帧相加取平均帧获得模糊数据，因此blur和sharp数据不是像素级的对应
+### 记录：  
+数据为两帧相加取平均帧获得模糊数据，因此blur和sharp数据不是像素级的对应。  
+数据可以分为：1. 摄像头固定：背景物无运动模糊，目标物体不同速度的运动模糊。 2. 手持摄像头：背景物有运动模糊，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2MDg5MjEzLDEyNDI2MTQ3ODksLTU1Nj
+eyJoaXN0b3J5IjpbOTE0MDQ0MzgyLDEyNDI2MTQ3ODksLTU1Nj
 QyNjMxOSw3NjIxNzY0NzEsLTk0NzMyNjQ3OV19
 -->
