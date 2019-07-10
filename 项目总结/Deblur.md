@@ -17,8 +17,8 @@
 数据为两帧相加取平均帧获得模糊数据，因此blur和sharp数据不是像素级的对应。  
 数据可以分为：1. 摄像头固定：背景物无运动模糊，目标物体不同速度的非均匀运动模糊。 2. 手持摄像头：背景物有运动模糊，目标物体也有相对的不同运动速度的非均匀模糊。  
 
-方法：由于输入数据和label的像素不是对应的，我们生成去模糊数据时也不要求与sharp数据进行像素点的一一对应，只要恢复出其中内容就好（没必要做到所有像素一一对应）。  
+方法：由于输入数据和label的像素不是对应的，我们生成去模糊数据时也不要求与sharp数据进行像素点的一一对应，只要恢复出其中内容就好（没必要做到所有像素一一对应）。  由此没法使用输出和label的MSE/MAE作为损失进行约束。故用GAN网络的对抗损失，和VGG的感知损失作为内容损失，两者结合jin'x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3NzkxOTY1LDEyNDI2MTQ3ODksLTU1Nj
-QyNjMxOSw3NjIxNzY0NzEsLTk0NzMyNjQ3OV19
+eyJoaXN0b3J5IjpbLTE1ODE4MzkyMjEsMTI0MjYxNDc4OSwtNT
+U2NDI2MzE5LDc2MjE3NjQ3MSwtOTQ3MzI2NDc5XX0=
 -->
