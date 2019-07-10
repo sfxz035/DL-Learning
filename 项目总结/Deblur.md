@@ -10,7 +10,12 @@
 网上线程代码跑一下，看下效果，与自己的效果对比。
 
 改进对于细节部分的恢复和加强。
+
+
+
+记录：  
+数据为两帧相加取平均帧获得模糊数据，因此blur和sharp数据不是像素级的对应
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjYxNDc4OSwtNTU2NDI2MzE5LDc2Mj
-E3NjQ3MSwtOTQ3MzI2NDc5XX0=
+eyJoaXN0b3J5IjpbNTM2MDg5MjEzLDEyNDI2MTQ3ODksLTU1Nj
+QyNjMxOSw3NjIxNzY0NzEsLTk0NzMyNjQ3OV19
 -->
