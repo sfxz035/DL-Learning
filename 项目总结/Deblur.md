@@ -27,8 +27,13 @@
 	- 可以输出vgg不同卷积层的输出作为loss约束，因为不同卷积层代表不同的感受野，而每个卷积层输出的feature map的点对应的是全图的一个patch的特征，计算损失就是计算每个patch的特征损失。不同卷积层输出计算损失就可以对多尺度的patch进行计算loss，从而达到多尺度patch-loss的计算。
 	- 生成网络下采样和上采样加入skip-connet，保留输入中的细节信息。在两次下采样和上采样中分别加入一层卷积，保重下采样的平滑。  
 	- 可以考虑加入注意力机制，因为图中出现了直线弯曲，这种现象的出现就是由于感受野不够大。
+
+- 需要补充知识 ：  
+  1. SE block
+  2. biggan，替换生成器网络
+  3. pixHD,高清图片生成
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDA0MDgzMywxMzk0MTk0MzkxLDEyND
-I2MTQ3ODksLTU1NjQyNjMxOSw3NjIxNzY0NzEsLTk0NzMyNjQ3
-OV19
+eyJoaXN0b3J5IjpbMTY4MTI4ODA2OCwxOTQwMDQwODMzLDEzOT
+QxOTQzOTEsMTI0MjYxNDc4OSwtNTU2NDI2MzE5LDc2MjE3NjQ3
+MSwtOTQ3MzI2NDc5XX0=
 -->
