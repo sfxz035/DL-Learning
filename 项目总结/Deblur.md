@@ -1,7 +1,11 @@
 
 
-###  问题  
-去模糊效果：对于整体部分的去模糊效果不错，结构部分恢复不错，但对于高频的细节部分恢复很差，如人脸等去模糊效果很差。
+###  问题    
+- 问题一  
+  - 问题 ：输出图像有棋盘效应，这种情况多是由上采样部分造成。  
+  - 解决方法：通过resize插值法加conv，代替反卷积，解决了棋盘效应。  
+
+模糊效果：对于整体部分的去模糊效果不错，结构部分恢复不错，但对于高频的细节部分恢复很差，如人脸等去模糊效果很差。
 
 
 接下来的方向：
@@ -33,7 +37,7 @@
   2. biggan，替换生成器网络
   3. pixHD,高清图片生成
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTI4ODA2OCwxOTQwMDQwODMzLDEzOT
+eyJoaXN0b3J5IjpbMTI3NjgyMjE5MCwxOTQwMDQwODMzLDEzOT
 QxOTQzOTEsMTI0MjYxNDc4OSwtNTU2NDI2MzE5LDc2MjE3NjQ3
 MSwtOTQ3MzI2NDc5XX0=
 -->
