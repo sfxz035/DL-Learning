@@ -2,7 +2,7 @@
 
 ### 数据
 - 原图  
-  原图数据为16位的short型数据。
+  原图数据为16位的short型数据，图像大小1024x1024。
   - int 255  
     将原图每一张分别进行标准化，截取-0.75，0.75范围的数据（data2）,再进行最大最小值归一化到0，255范围，并`cv.cvtColor(img,cv.COLOR_GRAY2BGR)`成三通道
   - -0.75，0.75  
@@ -11,7 +11,7 @@
     将原图直接除以（256*256）,映射到（0，1）范围--（data4）
    
 -   png图片
-  输入直接是原图经过窗位窗宽调整过后的png图片。
+  输入直接是原图经过窗位窗宽调整过后的png图片图像大小1024x1024。
 
 ### 注意  
 金标检测的图像分为png和原图，png是原图经过窗位窗宽调整后得到的图片，为uint8格式，而原图为16位图。
@@ -63,10 +63,10 @@
     使用预先训练的Alexnet  (或者VGG)
     在医学领域使用深度学习CNNs的主要限制是缺乏大型带注释的数据集，比如那些为自然图像而存在的数据集。因此，在大型数据集上对CNNs进行全面培训的另一种选择是通过将预先培训好的CNNs微调到医疗应用程序来执行转移学习
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODAzNzMxOTAsLTY5NTE4NzM0MSwxMT
-E1MDkzNDI3LDY3NDA1OTI2NywtMTU2MDIyMDY5MCwtMTIzNDc3
-NDEzNCwxMDExMDA2MTE1LDEyNzAyMDQwMDksMTE0MTg4ODQyNC
-w4ODg0NzMyLC00NDM2OTU4MDksNTc2ODQ1MzIzLDExNjkzNjMw
-MjQsLTE4MTE4NzM1OSw2NjQ5ODkxOTksMTgzNTQwMDU5MywtMT
-A0OTgyODYxMV19
+eyJoaXN0b3J5IjpbNDM3MTc1NTc4LC0xMTgwMzczMTkwLC02OT
+UxODczNDEsMTExNTA5MzQyNyw2NzQwNTkyNjcsLTE1NjAyMjA2
+OTAsLTEyMzQ3NzQxMzQsMTAxMTAwNjExNSwxMjcwMjA0MDA5LD
+ExNDE4ODg0MjQsODg4NDczMiwtNDQzNjk1ODA5LDU3Njg0NTMy
+MywxMTY5MzYzMDI0LC0xODExODczNTksNjY0OTg5MTk5LDE4Mz
+U0MDA1OTMsLTEwNDk4Mjg2MTFdfQ==
 -->
