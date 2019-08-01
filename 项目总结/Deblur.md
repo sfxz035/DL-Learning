@@ -33,10 +33,11 @@
 	- 使用堆叠网络，先在下采样的低分辨图片上生成，再经过高分辨生成网络，多任务损失优化网络。这样既达到了堆叠网络的效果，也起到了多尺度效果。
 - 需要补充知识 ：  
   2. biggan，替换生成器网络
-
+	patch gan 和马尔可夫随机场关系。   
+	评价指标FCN-score
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDAwMzY3NzEsMTM2ODIyMzQzMCwyMT
-I1NzQ4MzE5LDEyNzY4MjIxOTAsMTk0MDA0MDgzMywxMzk0MTk0
-MzkxLDEyNDI2MTQ3ODksLTU1NjQyNjMxOSw3NjIxNzY0NzEsLT
-k0NzMyNjQ3OV19
+eyJoaXN0b3J5IjpbNTIxNjcyMjIzLDEzNjgyMjM0MzAsMjEyNT
+c0ODMxOSwxMjc2ODIyMTkwLDE5NDAwNDA4MzMsMTM5NDE5NDM5
+MSwxMjQyNjE0Nzg5LC01NTY0MjYzMTksNzYyMTc2NDcxLC05ND
+czMjY0NzldfQ==
 -->
